@@ -13,13 +13,10 @@ export const MenuCard = ({ title, price, description, image, buttonText = "Pedir
     </div>
     <div className="flex justify-between w-full mb-2 px-1 items-center">
       <h3 className="font-bold text-gray-800 text-lg">{title}</h3>
-      <span className="text-pink-500 font-extrabold text-sm whitespace-nowrap">S/ {price}</span>
+      <span className="text-pink-500 font-extrabold text-xl whitespace-nowrap">S/ {price}</span>
     </div>
     <p className="text-gray-400 text-[11px] mb-5 leading-relaxed h-10 overflow-hidden">
       {description}
-    </p>
-    <button className="w-full py-2.5 bg-[#E6F7F9] text-[#2CBAC7] rounded-xl text-xs font-bold hover:bg-cyan-100 transition-colors">
-      {buttonText}
-    </button>
+    </p> 
   </div>
 );

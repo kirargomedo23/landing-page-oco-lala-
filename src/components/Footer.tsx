@@ -5,7 +5,7 @@ import INFO from '../data/const';
 
 
 export const Footer = () => (
-  <footer className="bg-[#FFF0F5] pt-20 pb-10 px-6">
+  <footer className="bg-[#FFF0F5] pt-20 pb-10 px-6" id="contact">
     <div className="max-w-4xl mx-auto text-center">
       <div className="bg-white rounded-[3rem] p-8 md:p-12 shadow-sm border border-pink-100 flex flex-col md:flex-row justify-between text-left gap-8 mb-16">
         <div className="space-y-6">
