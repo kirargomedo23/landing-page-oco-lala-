@@ -8,6 +8,10 @@ export const Navbar = () => {
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToGallery = () => {
+    document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <nav className="flex justify-between items-center px-6 md:px-20 py-4 sticky top-0 bg-white/90 backdrop-blur-sm z-50">
       <div className="flex items-center gap-3">
@@ -21,6 +25,7 @@ export const Navbar = () => {
       <div className="hidden md:flex gap-10 text-[13px] font-medium text-gray-500">
         <a href="#" className="hover:text-pink-500 transition-colors">Inicio</a>
         <a onClick={scrollToMenu} className="hover:text-pink-500 cursor-pointer transition-colors">Menú</a>
+        <a onClick={scrollToGallery} className="hover:text-pink-500 cursor-pointer transition-colors">Galería</a>
         <a onClick={scrollToContact} className="hover:text-pink-500  cursor-pointer transition-colors">Contacto</a>
       </div>
     </nav>

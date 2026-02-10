@@ -6,6 +6,7 @@ import { MessageCircle } from 'lucide-react';
 import './App.css';
 import { Footer } from './components/Footer';
 import { MenuSection } from './components/MenuSection';
+import { Gallery } from './components/Gallery';
 import INFO from './data/const';
 
 
@@ -18,6 +19,7 @@ function App() {
       <Hero />
 
       <MenuSection />
+      <Gallery />
       <Footer />
 
       <a href={`https://wa.me/${phone}?text=Hola%20quiero%20hacer%20un%20pedido`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="Whatsapp" className="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform z-50">
